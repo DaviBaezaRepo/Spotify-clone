@@ -7,30 +7,170 @@ White: #FFF
 
 */
 body {
-    font-family: sans-serif;
-    display: inline-block;
+  font-family: sans-serif;
+  display: inline-block;
 }
 header {
+  width: 99vw;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  text-align: center;
+}
+
+.image {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navegation {
+  word-spacing: 3000px;
+  padding: 20px;
+}
+
+.bannerimage {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: url(/Spoty/landing.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.bannerimage h1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 200px;
+  font-size: 70px;
+}
+
+.bannerimage p {
+  font-size: 25px;
+}
+
+.spotycenter {
+  text-align: center;
+}
+
+.spoty {
+  border-bottom: solid green 3px;
+  display: inline-block;
+}
+
+.millionsongs img {
+  margin: 0 auto;
+  width: 90px;
+}
+.millionsongs h1 {
+  font-size: 30px;
+  color: #31c591;
+  text-align: center;
+}
+.millionsongs p {
+  font-size: 20px;
+  text-align: center;
+}
+.hdmusic {
+  text-align: center;
+}
+.hdmusic img {
+  margin: 0 auto;
+  width: 90px;
+}
+.hdmusic h1 {
+  font-size: 30px;
+  color: #31c591;
+  text-align: center;
+}
+.hdmusic p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.stream img {
+  margin: 0 auto;
+  width: 90px;
+}
+.stream h1 {
+  font-size: 30px;
+  color: #31c591;
+  text-align: center;
+}
+.stream p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.greenpage {
+  background-color: #1ab16a;
+  background-size: cover;
+  background-position: center;
+  margin: 30px;
+  padding: 70px;
+  text-align: center;
+}
+
+.kayne h1 {
+  color: white;
+  border-bottom: solid white 3px;
+  display: inline-block;
+}
+
+.text {
+  color: white;
+}
+.text h2 {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+.text p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.logospotywhite {
+  margin-bottom: 50px;
+}
+
+.logospotywhite img {
+  width: 200px;
+}
+.kaynephoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kaynephoto img {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-family: sans-serif;
+  }
+  header {
     width: 99vw;
     position: fixed;
     top: 0;
     z-index: 1000;
     background-color: white;
     text-align: center;
-}
+  }
 
-.image {
+  .image {
     height: 100vh;
     width: 100vw;
-}
+  }
 
-.navegation {
-    word-spacing: 3000px;
+  .navegation {
+    word-spacing: 50px;
     padding: 20px;
-}
+  }
 
-
-.bannerimage {
+  .bannerimage {
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -38,421 +178,267 @@ header {
     background-image: url(/Spoty/landing.jpg);
     background-size: cover;
     background-position: center;
-}
-.bannerimage h1 {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        padding-top: 200px;
-        font-size: 70px;
-}
+  }
+  .bannerimage h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 200px;
+    font-size: 70px;
+  }
 
-.bannerimage p { 
+  .bannerimage p {
     font-size: 25px;
-}
+  }
 
-.spotycenter {
+  .spotycenter {
     text-align: center;
-}
+  }
 
-.spoty {
+  .spoty {
     border-bottom: solid green 3px;
     display: inline-block;
-}
+  }
 
-.millionsongs img {
+  .millionsongs img {
     margin: 0 auto;
     width: 90px;
-}
-.millionsongs h1 {
+  }
+  .millionsongs h1 {
     font-size: 30px;
     color: #31c591;
     text-align: center;
-}
-.millionsongs p {
+  }
+  .millionsongs p {
     font-size: 20px;
     text-align: center;
-}
-.hdmusic {
+  }
+  .hdmusic {
     text-align: center;
-}
-.hdmusic img {
+  }
+  .hdmusic img {
     margin: 0 auto;
     width: 90px;
-}
-.hdmusic h1 {
+  }
+  .hdmusic h1 {
     font-size: 30px;
     color: #31c591;
     text-align: center;
-}
-.hdmusic p {
+  }
+  .hdmusic p {
     font-size: 20px;
     text-align: center;
-}
+  }
 
-.stream img {
+  .stream img {
     margin: 0 auto;
     width: 90px;
-}
-.stream h1 {
+  }
+  .stream h1 {
     font-size: 30px;
     color: #31c591;
     text-align: center;
-}
-.stream p {
+  }
+  .stream p {
     font-size: 20px;
     text-align: center;
-}
+  }
 
-.greenpage {
+  .greenpage {
     background-color: #1ab16a;
     background-size: cover;
     background-position: center;
     margin: 30px;
     padding: 70px;
     text-align: center;
-}
+  }
 
-.kayne h1{
+  .kayne h1 {
     color: white;
     border-bottom: solid white 3px;
     display: inline-block;
-}
+  }
 
-.text {
+  .text {
     color: white;
-}
-.text h2{
+  }
+  .text h2 {
     margin-bottom: 40px;
     font-size: 25px;
-} 
-.text p {
+  }
+  .text p {
     margin-bottom: 40px;
     font-size: 18px;
-}
+  }
 
-.logospotywhite {
-        margin-bottom: 50px;
-}
+  .logospotywhite {
+    margin: 50px;
+  }
 
-.logospotywhite img {
+  .logospotywhite img {
     width: 200px;
-}
-.kaynephoto {
+  }
+  .kaynephoto {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.kaynephoto img {
+  .kaynephoto img {
     width: 300px;
-
+  }
 }
 
+@media screen and (min-width: 1024px) {
+  body {
+    font-family: sans-serif;
+  }
+  header {
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+  }
 
+  .image {
+    height: 100vh;
+    width: 100vw;
+  }
 
+  .navegation {
+    word-spacing: 50px;
+    padding: 20px;
+  }
 
+  .bannerimage {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-image: url(/Spoty/landing.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .bannerimage h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 200px;
+    font-size: 70px;
+  }
 
-@media screen and ( min-width: 768px) {
+  .bannerimage p {
+    font-size: 25px;
+  }
 
-    body {
-        font-family: sans-serif;
-    }
-    header {
-        width: 99vw;
-        position: fixed;
-        top: 0;
-        z-index: 1000;
-        background-color: white;
-        text-align: center;
-    }
-    
-    .image {
-        height: 100vh;
-        width: 100vw;
-    }
+  .spotycenter {
+    text-align: center;
+  }
 
-    .navegation {
-        word-spacing: 50px;
-        padding: 20px;
-    }
-    
-    
-    .bannerimage {
-        width: 100vw;
-        height: 100vh;
-        text-align: center;
-        color: white;
-        background-image: url(/Spoty/landing.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    .bannerimage h1 {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            padding-top: 200px;
-            font-size: 70px;
-    }
-    
-    .bannerimage p { 
-        font-size: 25px;
-    }
-    
-    .spotycenter {
-        text-align: center;
-    }
-    
-    .spoty {
-        border-bottom: solid green 3px;
-        display: inline-block;
-    }
-    
-    .millionsongs img {
-        margin: 0 auto;
-        width: 90px;
-    }
-    .millionsongs h1 {
-        font-size: 30px;
-        color: #31c591;
-        text-align: center;
-    }
-    .millionsongs p {
-        font-size: 20px;
-        text-align: center;
-    }
-    .hdmusic {
-        text-align: center;
-    }
-    .hdmusic img {
-        margin: 0 auto;
-        width: 90px;
-    }
-    .hdmusic h1 {
-        font-size: 30px;
-        color: #31c591;
-        text-align: center;
-    }
-    .hdmusic p {
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    .stream img {
-        margin: 0 auto;
-        width: 90px;
-    }
-    .stream h1 {
-        font-size: 30px;
-        color: #31c591;
-        text-align: center;
-    }
-    .stream p {
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    .greenpage {
-        background-color: #1ab16a;
-        background-size: cover;
-        background-position: center;
-        margin: 30px;
-        padding: 70px;
-        text-align: center;
-    }
-    
-    .kayne h1{
-        color: white;
-        border-bottom: solid white 3px;
-        display: inline-block;
-    }
-    
-    .text {
-        color: white;
-    }
-    .text h2{
-        margin-bottom: 40px;
-        font-size: 25px;
-    } 
-    .text p {
-        margin-bottom: 40px;
-        font-size: 18px;
-    }
-    
-    .logospotywhite {
-            margin: 50px;
-    }
-    
-    .logospotywhite img {
-        width: 200px;
-    }
-    .kaynephoto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .kaynephoto img {
-        width: 300px;
-    
-    }
-}
-    
+  .spoty {
+    border-bottom: solid green 3px;
+    display: inline-block;
+  }
+  .details {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-@media screen and ( min-width: 1024px) {
-    body {
-        font-family: sans-serif;
-    }
-    header {
-        width: 99vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        z-index: 1000;
-        background-color: white;
-    }
-    
+  .millionsongs img {
+    margin: 0 auto;
+    width: 90px;
+  }
+  .millionsongs h1 {
+    font-size: 30px;
+    color: #31c591;
+    text-align: center;
+  }
+  .millionsongs p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .hdmusic {
+    text-align: center;
+  }
+  .hdmusic img {
+    margin: 0 auto;
+    width: 90px;
+  }
+  .hdmusic h1 {
+    font-size: 30px;
+    color: #31c591;
+    text-align: center;
+  }
+  .hdmusic p {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .image {
-        height: 100vh;
-        width: 100vw;
-    }
+  .stream img {
+    margin: 0 auto;
+    width: 90px;
+  }
+  .stream h1 {
+    font-size: 30px;
+    color: #31c591;
+    text-align: center;
+  }
+  .stream p {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .navegation {
-        word-spacing: 50px;
-        padding: 20px;
-    }
-    
-    
-    .bannerimage {
-        width: 100vw;
-        height: 100vh;
-        text-align: center;
-        color: white;
-        background-image: url(/Spoty/landing.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-    .bannerimage h1 {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            padding-top: 200px;
-            font-size: 70px;
-    }
-    
-    .bannerimage p { 
-        font-size: 25px;
-    }
-    
-    .spotycenter {
-        text-align: center;
-    }
-    
-    .spoty {
-        border-bottom: solid green 3px;
-        display: inline-block;
-    }
-    .details {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .millionsongs img {
-        margin: 0 auto;
-        width: 90px;
-    }
-    .millionsongs h1 {
-        font-size: 30px;
-        color: #31c591;
-        text-align: center;
-    }
-    .millionsongs p {
-        font-size: 20px;
-        text-align: center;
-    }
-    .hdmusic {
-        text-align: center;
-    }
-    .hdmusic img {
-        margin: 0 auto;
-        width: 90px;
-    }
-    .hdmusic h1 {
-        font-size: 30px;
-        color: #31c591;
-        text-align: center;
-    }
-    .hdmusic p {
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    .stream img {
-        margin: 0 auto;
-        width: 90px;
-    }
-    .stream h1 {
-        font-size: 30px;
-        color: #31c591;
-        text-align: center;
-    }
-    .stream p {
-        font-size: 20px;
-        text-align: center;
-    }
-    
-    .greenpage {
-        background-color: #1ab16a;
-        background-size: cover;
-        background-position: center;
-        margin: 30px;
-        padding: 70px;
-        display: flex;
-        justify-content: space-around;
-        grid-template-columns: 2fr 1fr 2fr;
-    
-    }
-    
-    .kayne h1{
-        color: white;
-        border-bottom: solid white 3px;
-        display: inline-block;
-        text-align: left;
-        grid-column: span 2;
-    }
-    
-    .text {
-        color: white;
-    }
-    .text h2{
-        margin-bottom: 40px;
-        font-size: 25px;
-    } 
-    .text p {
-        margin-bottom: 40px;
-        font-size: 18px;
-    }
-    
-    .logospotywhite {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-    }
-    
-    .logospotywhite img {
-        width: 200px;
-    }
-    .kaynephoto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .kaynephoto img {
-        width: 300px;
-    
-    }
+  .greenpage {
+    background-color: #1ab16a;
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: 2fr 1fr 2fr;
+  }
+
+  .kayne h1 {
+    color: white;
+    border-bottom: solid white 3px;
+    display: inline-block;
+    text-align: left;
+    grid-column: span 2;
+  }
+
+  .text {
+    color: white;
+  }
+  .text h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+  .text p {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+
+  .logospotywhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logospotywhite img {
+    width: 200px;
+  }
+  .kaynephoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kaynephoto img {
+    width: 300px;
+  }
 }
